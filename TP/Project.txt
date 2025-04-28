@@ -1,0 +1,17 @@
+Project 
+인원 : 2 ~ 3명, 
+기간:  3 주
+1. 스마트 조명 제어 시스템
+   - WiFi/Bluetooth로 조명 원격 제어(ON/OFF, 밝기, 색깔 조정)
+   - Raspberry Pi, MQTT, Android Studio
+2. 실시간 온습도 모니터링 시스템
+   - 온도/습도 측정하고 서버에 전송 -> 웹/앱에서 확인
+   - DHT22, Raspberry Pi, Flask 서버, Mysql 저장, 웹 대시보드
+3. 실시간 주차관리 시스템
+   - 초음파 센서로 차량 존재 여부 확인 -> 서버에 주차 공간 업데이트 -> 웹/앱에서 주차 여부 표시
+   - SR04, Raspberry Pi, Flask 서버, Android Studio
+4. 날씨 알림 우산 거치대
+   - 비 소식이 있으면 LED로 알려주는 스마트 우산 스탠드
+   - OpenWeatherMao API로 날씨 정보 가져오기
+   - Raspberry Pi + LED(비 예보시 On)
+   - 웹/앱에서 상태 확인
